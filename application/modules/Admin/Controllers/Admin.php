@@ -3,6 +3,7 @@ header('Cache-Control: no-store, no-cache, must-revalidate');
 header('Cache-Control: post-check=0, pre-check=0', FALSE);
 header('Pragma: no-cache');
 
+//Buat Class Admin
 class Admin extends CI_Controller{
 	
 	public function __construct(){
@@ -14,6 +15,7 @@ class Admin extends CI_Controller{
 		}
 	}
 	
+	//Buat Method Index
 	public function index(){
 		$this->load->view('admin');
 	}
