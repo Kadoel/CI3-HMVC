@@ -1,2 +1,2 @@
 # CI3-HMVC
-CI3 Dengan HMVC
+Struktur Utama CI3 Dengan HMVC, Kalian tinggal Menambahkan di bagian modules
