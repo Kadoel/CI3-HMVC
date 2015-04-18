@@ -8,6 +8,7 @@ class Admin extends CI_Controller{
 	public function __construct(){
 		parent::__construct();
 		
+		//Cek Group User Dari Session
 		if($this->session->userdata('group_user') != '1'){
 			redirect(site_url('login'));
 		}
